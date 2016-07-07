@@ -1,10 +1,13 @@
 ---
 layout: post
 title: 搭建博客
-date: 2016-07-07
-categories: [blog ]
-tags: [博客]
+categories: [blog, ]
+tags: [blog]
 ---
+
+
+
+
 
 ##前言
 
