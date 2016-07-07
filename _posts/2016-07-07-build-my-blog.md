@@ -2,7 +2,7 @@
 layout: post
 title: 搭建博客
 date: 2016-07-07
-categories: blog
+categories: [blog ]
 tags: [博客]
 ---
 
