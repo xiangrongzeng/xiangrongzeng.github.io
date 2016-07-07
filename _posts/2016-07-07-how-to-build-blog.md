@@ -15,6 +15,7 @@ description: 「这个博客是怎么搭建起来的」
 网上有很多帖子讲了要怎么使用github的page服务来搭建个人网站。但是涉及到很多东西。这里介绍最简单的办法——直接fork一个现成的blog。
 
 ### Git和GitHub的相关内容（略）
+这里略去了如何创建github账号，以及git、github的基本用法。
 
 ### fork现成的blog
 我们首先在GitHub中找到自己想要fork的博客仓库。比如[这个](https://github.com/cnfeat/blog.io/tree/master)，然后我们将它fork到我们自己的GitHub上。这时你的GitHub仓库中就多了一个叫blog.io的仓库。假设你的GitHub用户名是jack，因为GitHub Pages服务的原因，我们需要将刚刚fork的blog.io的名字修改为：jack.github.io。这样修改好之后，就可以通过
@@ -34,3 +35,9 @@ description: 「这个博客是怎么搭建起来的」
 	tags: [blog, ]  
 	description: 「这个博客是怎么搭建起来的」   
 	---
+
+ - layout: 表示你要用的模版，一般就用默认的就行
+ - title：就是你的这篇博文的名字
+ - categories：表示这篇博文所属的类别
+ - tags：表示这篇博文要打的标签，如果有多个标签，需要用英文半角逗号分隔开
+ - description：就是概括下整篇博文的主要内容
