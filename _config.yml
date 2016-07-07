@@ -1,6 +1,6 @@
 # Site settings
 title: Sunder
-header-img: "img/autumn2.jpg"
+header-img: "img/tree.jpg"
 tagline: "吉光片羽"  
 description: "后之视今，亦犹今之视昔"
 baseurl: ""
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: "post"
       author: "Sunder"
-      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/grass.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
 # Comments 
