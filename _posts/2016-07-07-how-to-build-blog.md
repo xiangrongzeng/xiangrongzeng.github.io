@@ -5,10 +5,12 @@ categories: [blog ]
 tags: [blog, ]  
 description: 「这个博客是怎么搭建起来的」   
 ---
-
+<script type="text/javascript" async
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 简单记录这个博客是怎么搭建起来的
 
-[ TOC ]
+[TOC]
 
 ## 前言
 折腾了几天，尝试用github来搭建自己的个人博客，一直没有找到好的方法。今天看到了这位博主的[搭建教程](http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)，总算是有所进展，现在试试将自己的经历写下来。
@@ -59,10 +61,11 @@ description: 「这个博客是怎么搭建起来的」
 最好的办法是找到模版文件，然后在模版中添加这段代码，这样程序就能够自动将这段代码添加进去。一般来说，模版文件在_layouts文件夹中，名称一般是固定的default.html。我们在default.html中添加上述代码就可以了。有时候default.html中并没有直接的设置语句，而是引用了其它地方的文件，那么我们找到引用的文件，再在其中添加上述代码即可。
 
 其实上述代码不一定非得放在\<head\>标签块中，因此我们可以直接将这段代码放在我们的.md文件中。这样做并不推荐，但是如果你实在找不到怎么在模板中添加上述代码，这也不失为一种方法。
+![](https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/inject_mathjax2.jpg)
 
-接下来就可以直接用LaTex的语法来写公式了，唯一一点要注意的是，行内公式也需要使用两个连着的**\$\$**符号来表示公式环境，只用一个\$符是不能表示公式的。下面是几个例子：
+接下来就可以直接用LaTex的语法来写公式了，唯一一点要注意的是，行内公式也需要使用两个连着的\$\$符号来表示公式环境，只用一个\$符是不能表示公式的。下面是几个例子：
 
 	$$\alpha$$
 	$$\in$$
 
-分别表示$$\alpha$$$$\in$$。
+分别表示$$\alpha$$和$$\in$$。
