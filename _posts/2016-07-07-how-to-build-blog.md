@@ -5,12 +5,8 @@ categories: [blog ]
 tags: [blog, ]  
 description: 「这个博客是怎么搭建起来的」   
 ---
-<script type="text/javascript" async
-	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-简单记录这个博客是怎么搭建起来的
 
-[TOC]
+简单记录这个博客是怎么搭建起来的
 
 ## 前言
 折腾了几天，尝试用github来搭建自己的个人博客，一直没有找到好的方法。今天看到了这位博主的[搭建教程](http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/)，总算是有所进展，现在试试将自己的经历写下来。
