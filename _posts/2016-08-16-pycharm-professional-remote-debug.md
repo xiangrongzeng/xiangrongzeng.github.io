@@ -14,7 +14,7 @@ description: 「用PyCharm专业版实现远程调试、运行代码」
 接下来就介绍如何用PyCharm专业版实现远程调试、运行代码。
 
 ## 过程
-###	 获取PyCharm专业版
+### 获取PyCharm专业版
 PyCharm专业版提供了我们需要的工具。它可以从[这里](https://www.jetbrains.com/pycharm/download/#section=windows)下载。
 
 需要注意的是，专业版是收费的。但是如果你是在校学生或者老师的话，是可以免费使用JetBrains旗下的所有专业版IDE的。这里要赞一下良心企业[JetBrains](https://www.jetbrains.com/)。
