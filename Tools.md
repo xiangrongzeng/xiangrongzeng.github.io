@@ -14,5 +14,8 @@ header-img: "img/autumn.jpg"
 ## 良心网站
 - [虫部落](http://www.chongbuluo.com/)
 - [shawnguo的个人站](http://www.shawnguo.cn/)
+- [廖雪峰的官方网站](http://www.liaoxuefeng.com/)
 
+## Python
+- [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/)
 
