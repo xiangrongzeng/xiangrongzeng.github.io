@@ -19,18 +19,23 @@ description: 「介绍如安装vim的pymode插件」
 执行如下命令（其实就是将python-mode仓库放到“~/.vim/bundle/”目录下）：
 
 > % cd ~/.vim
+
 > % mkdir -p bundle && cd bundle
+
 > % git clone https://github.com/klen/python-mode.git
 
 然后在自己的vim配置文件（~/.vimrc）中加入以下设置：
 
 > " Pathogen load
+
 > filetype off
-> 
+
 > call pathogen#infect()
+
 > call pathogen#helptags()
-> 
+
 > filetype plugin indent on
+
 > syntax on
 
 这样就配置好了。
