@@ -27,8 +27,11 @@ jdk1.8.0_101/ 就是jdk-8u101-linux-x64.tar.gz解压生成的文件夹。
 分别打开位于/home/user/ 目录下的.profile文件和.bashrc文件，分别在它们末尾添加以下列语句并保存
 
 > export JAVA_HOME=/home/user/jdk1.8.0_101
+
 > export JRE_HOME=${JAVA_HOME}/jre
+
 > export CLASSPATH=.:${JAVA_HMOE}/lib:${JRE_HOME}/lib
+
 > export PATH=${JAVA_HOME}/bin:$PATH
 
 这样就完成了安装。注意要重新登录才能生效。
