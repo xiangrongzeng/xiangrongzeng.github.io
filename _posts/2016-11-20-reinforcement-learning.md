@@ -16,7 +16,7 @@ description: 「图解强化学习」
 
 使用过程
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-use.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-use.jpg"  height = "200" align="center"></p>
 </center>
 
 # DQN
