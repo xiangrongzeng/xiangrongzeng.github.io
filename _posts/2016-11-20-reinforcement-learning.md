@@ -26,6 +26,8 @@ description: 「图解强化学习」
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/dqn-state2action.jpg" align="center"></p>
 </center>
 
+
+
 <center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/dqn-stateaction2rewardnewstate.jpg" align="center"></p>
 </center>
@@ -33,16 +35,16 @@ description: 「图解强化学习」
 ## 如何训练Q网络
 ### 思路
 
-Q网络的输出是每个动作的Q值。而我们希望$$𝑄(𝑠,𝑎_𝑘)=𝑟_{𝑠,𝑎_𝑘}+𝛾*maxU^n_{𝑘=1} {𝑄(𝑠^′,𝑎_𝑘 )}$$。（注意只有在网络已经训练好了之后等式才会成立，我们训练的目标就是让这个等式成立。）
+Q网络的输出是每个动作的Q值。而我们希望$$𝑄(𝑠,𝑎_𝑘)=𝑟_{𝑠,𝑎_𝑘}+𝛾*maxU^n_{𝑘=1}\{𝑄(𝑠^′,𝑎_𝑘 )\}$$。（注意只有在网络已经训练好了之后等式才会成立，我们训练的目标就是让这个等式成立。）
 
 ### 做法
 
-- $$𝑥:x=𝑠$$
+- $$x=𝑠$$
 
-- $$y:y=𝑟_{𝑠,𝑎_𝑘}+𝛾*maxU^n_{𝑘=1}{𝑄(𝑠^′,𝑎_𝑘 )}$$。如果𝑠′是终止状态，那$$𝑦=𝑟_{𝑠,𝑎_𝑘}$$
+- $$y=𝑟_{𝑠,𝑎_𝑘}+𝛾*maxU^n_{𝑘=1}\{𝑄(𝑠^′,𝑎_𝑘 )\}$$。如果𝑠′是终止状态，那$$𝑦=𝑟_{𝑠,𝑎_𝑘}$$
 
 
-- $$𝑙𝑜𝑠𝑠:𝐿=(y−𝑄(𝑠,𝑎_𝑘 ))^2$$
+- $$Loss=(y−𝑄(𝑠,𝑎_𝑘 ))^2$$
 
 ### 技巧
 - 每对一个状态生成元组$$(s,a_k,𝑟_{𝑠,𝑎_𝑘},s')$$后，将其保存到memory中
