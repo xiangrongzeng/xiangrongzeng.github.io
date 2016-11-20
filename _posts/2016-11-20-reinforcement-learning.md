@@ -11,12 +11,12 @@ description: 「图解强化学习」
 # Q-learning
 学习过程
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-learn.jpg"  height = "100" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-learn.jpg"   align="center"></p>
 </center>
 
 使用过程
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-use.jpg"  height = "100" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/q-learning-use.jpg"   align="center"></p>
 </center>
 
 # DQN
