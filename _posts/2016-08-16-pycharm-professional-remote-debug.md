@@ -30,7 +30,7 @@ PyCharm专业版提供了我们需要的工具。它可以从[这里](https://ww
 
 接下来我们就进入了IDE。我们需要设置两个地方：远程服务器和远程解析器。
 
-设置远程服务器：Tools -> Deployment -> Configuration 打开设置界面，点击“+”号添加远程主机。如图：
+设置远程服务器：Tools -> Deployment -> Configuration 打开设置界面，点击“+”号添加远程主机，如下图所示。最后是选择要同步的文件夹的路径。就是选择你本地需要同步的文件夹和远程服务器需要同步的文件夹，此项在下图中的Mapping中设置。
 <center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/pyc-add-server-1.jpg" align="center"></p>
 </center>
@@ -38,7 +38,6 @@ name就是主机的名字（不是ip，可以是一个好记的名字），Type�
 <center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/xiangrongzeng.github.io/master/_posts/graph/pyc-add-server-2.jpg" align="center"></p>
 </center>
-最后是选择要同步的文件夹的路径。就是选择你本地需要同步的文件夹和远程服务器需要同步的文件夹。
 
 接下来讲讲如何设置远程解析器：File -> Settings -> Project: -> Project Interpreter。如图所示：
 <center>
