@@ -14,29 +14,29 @@ description: 「顶会论文列表」
 		- [ACL2017short](#acl2017short)
 
 	- [ACL2016](#acl2016)
-		- [ACL2017long](#acl2016long)
-		- [ACL2017short](#acl2016short)
+		- [ACL2016long](#acl2016long)
+		- [ACL2016short](#acl2016short)
 
 	- [ACL2015](#acl2015)
-		- [ACL2017long](#acl2015long)
-		- [ACL2017short](#acl2015short)
+		- [ACL2015long](#acl2015long)
+		- [ACL2015short](#acl2015short)
 
 	- [ACL2014](#acl2014)
-		- [ACL2017long](#acl2014long)
-		- [ACL2017short](#acl2014short)
+		- [ACL2014long](#acl2014long)
+		- [ACL2014short](#acl2014short)
 
 	- [ACL2013](#acl2013)
-		- [ACL2017long](#acl2013long)
-		- [ACL2017short](#acl2013short)
+		- [ACL2013long](#acl2013long)
+		- [ACL2013short](#acl2013short)
 
 	- [ACL2012](#acl2012)
-		- [ACL2017long](#acl2012long)
-		- [ACL2017short](#acl2012short)
+		- [ACL2012long](#acl2012long)
+		- [ACL2012short](#acl2012short)
 
-#  Association for Computational Linguistics (ACL){#acl}
+#  Association for Computational Linguistics (ACL)
 
-## ACL2017{#acl2017}
-### Long Paper{#acl2017long}
+## ACL2017
+### Long Paper
 - **Biomedical**
 	- Enriching Complex Networks with Word Embeddings for Detecting Mild Cognitive Impairment from Speech Transcripts
 - **Leandro Santos, Edilson Anselmo Corrêa Júnior, Osvaldo Oliveira Jr, Diego Amancio, Letícia Mansur and Sandra Aluísio**
@@ -679,8 +679,8 @@ description: 「顶会论文列表」
 	- A Survey on Action Recognition Datasets and Tasks for Still Images
 
 
-## ACL2016{#acl2016}
-### Long paper{#acl2016long}
+## ACL2016
+### Long paper
 - **A CALL system for learning preposition usage**
 	- John Lee
 - **A Character-level Decoder without Explicit Segmentation for Neural Machine Translation**
