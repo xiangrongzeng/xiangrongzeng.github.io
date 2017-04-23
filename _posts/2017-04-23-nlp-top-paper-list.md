@@ -8,30 +8,33 @@ description: 「顶会论文列表」
 
 [TOC]
 
-- [ACL](#acl)
+- [ACL](#Association for Computational Linguistics (ACL))
 	- [ACL2017](#acl2017)
-		- [ACL2017long](#acl2017long)
-		- [ACL2017short](#acl2017short)
 
 	- [ACL2016](#acl2016)
-		- [ACL2016long](#acl2016long)
-		- [ACL2016short](#acl2016short)
 
 	- [ACL2015](#acl2015)
-		- [ACL2015long](#acl2015long)
-		- [ACL2015short](#acl2015short)
 
 	- [ACL2014](#acl2014)
-		- [ACL2014long](#acl2014long)
-		- [ACL2014short](#acl2014short)
 
 	- [ACL2013](#acl2013)
-		- [ACL2013long](#acl2013long)
-		- [ACL2013short](#acl2013short)
 
 	- [ACL2012](#acl2012)
-		- [ACL2012long](#acl2012long)
-		- [ACL2012short](#acl2012short)
+
+- [EMNLP](#Conference on Empirical Methods in Natural Language Processing (EMNLP))
+	- [EMNLP2017](#emnlp2017)
+
+	- [EMNLP2016](#emnlp2016)
+
+	- [EMNLP2015](#emnlp2015)
+
+	- [EMNLP2014](#emnlp2014)
+
+	- [EMNLP2013](#emnlp2013)
+
+	- [EMNLP2012](#emnlp2012)
+
+
 
 #  Association for Computational Linguistics (ACL)
 
