@@ -13,23 +13,23 @@ description: 「顶会论文列表」
 		- [ACL2017long](#acl2017long)
 		- [ACL2017short](#acl2017short)
 
-	- [ACL2017](#acl2016)
+	- [ACL2016](#acl2016)
 		- [ACL2017long](#acl2016long)
 		- [ACL2017short](#acl2016short)
 
-	- [ACL2017](#acl2015)
+	- [ACL2015](#acl2015)
 		- [ACL2017long](#acl2015long)
 		- [ACL2017short](#acl2015short)
 
-	- [ACL2017](#acl2014)
+	- [ACL2014](#acl2014)
 		- [ACL2017long](#acl2014long)
 		- [ACL2017short](#acl2014short)
 
-	- [ACL2017](#acl2013)
+	- [ACL2013](#acl2013)
 		- [ACL2017long](#acl2013long)
 		- [ACL2017short](#acl2013short)
 
-	- [ACL2017](#acl2012)
+	- [ACL2012](#acl2012)
 		- [ACL2017long](#acl2012long)
 		- [ACL2017short](#acl2012short)
 
@@ -679,8 +679,8 @@ description: 「顶会论文列表」
 	- A Survey on Action Recognition Datasets and Tasks for Still Images
 
 
-## ACL2016, 
-### Long paper
+## ACL2016{#acl2016}
+### Long paper{#acl2016long}
 - **A CALL system for learning preposition usage**
 	- John Lee
 - **A Character-level Decoder without Explicit Segmentation for Neural Machine Translation**
