@@ -5,7 +5,9 @@ categories: [ ]
 tags: [ ]  
 description: 「顶会论文列表」   
 ---
-[toc]
+
+[TOC]
+
 - [ACL](#acl)
 	- [ACL2017](#acl2017)
 		- [ACL2017long](#acl2017long)
