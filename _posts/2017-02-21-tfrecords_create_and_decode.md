@@ -1,8 +1,10 @@
-# TFRecords指南
-## 为什么要用tfrecords格式存储数据
-
-## 如何将数据转为tfrecords格式并存储到本地文件
-
+---
+layout: post  
+title: TFRecords指南  
+categories: [blog ]  
+tags: [blog, ]  
+description: 「TFRecords指南」   
+---
 我们举例说明。
 
 在自然语言处理任务中，我们需要对句子进行分类。
