@@ -56,9 +56,15 @@ $$
 
 更新参数 $$\theta^{new} \rightarrow \theta^{old}+\eta \nabla\hat{R_{\theta}}$$
 
+# 跟极大似然法相比
 
+|	|极大似然法| Policy Gradient|
+|训练数据|$${(\hat{x^1},s^1),(\hat{x^2},s^2),...,(\hat{x^3},s^3)}$$	|$$(x^1,s^1),(x^2,s^2),...,(x^N,s^N)$$	|
+|目标函数|$$\frac{1}{N} \sum_{i=1}^{N} \log P_{\theta}(\hat{x^i}|s^i)$$	|$$\frac{1}{N} \sum_{i=1}^{N} \log P_{\theta}(\hat{x^i}|s^i)$$	|
+|梯度	|$$\nabla\hat{R_{\theta}} = \frac{1}{N} \sum_{i=1}^{N} \nabla \log P_{\theta}(\hat{x^i}|s^i)$$	|$$\nabla\hat{R_{\theta}} = \frac{1}{N} \sum_{i=1}^{N} R(x^i,s^i)\nabla \log P_{\theta}(x^i|s^i)$$	|
 
-
+$$\hat{x^i}$$表示的是标准值，因为我们在用极大似然法训练的时候是知道此时的标签（标准值）是什么的。但是在强化学习中，我们并不知道每个时刻的标准值是什么。
+通过对比我们可以发现，PolicyGradient的方法和极大似然法非常相似，其实我们可以把PolicyGradient中样本的奖赏值看成它的权重（极大似然法可以看成每个数据的奖赏值为1），这样就跟极大似然法的目标函数和梯度几乎一样了，唯一不同的就是PolicyGradient中样本的$$x^i$$ 并不是标准值。
 
 
 
