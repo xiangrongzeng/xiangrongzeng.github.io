@@ -54,7 +54,7 @@ $$
 \nabla\hat{R_{\theta}} \approx \frac{1}{N} \sum_{i=1}^{N} R(x^i,s^i)\nabla \log P_{\theta}(x^i|s^i)
 $$
 
-更新参数 $$\theta^{new} \rightarrow \theta^{old}+\eta \nabla\hat{R_{\theta}}$$
+更新参数 $$\theta^{new} \leftarrow \theta^{old}+\eta \nabla\hat{R_{\theta}}$$
 
 # 跟极大似然法相比
 
