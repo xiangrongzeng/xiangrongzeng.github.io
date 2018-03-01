@@ -20,7 +20,10 @@ $$
 这个公式其实就是奖赏值的期望的公式：
 
 $$
-\hat{R_{\theta}} = \sum_sP(s)\sum_xR(x,s)P_{\theta}(x|s)=E_{s~P(s)}[E_{x~P_{\theta}(x|s)}R(x,s)]=E_{s~P(s),x~P_{\theta}(x|s)}}R(x,s)
+\hat{R_{\theta}} = \sum_sP(s)\sum_xR(x,s)P_{\theta}(x|s)
+$$
+$$
+=E_{s~P(s)}[E_{x~P_{\theta}(x|s)}R(x,s)]=E_{s~P(s),x~P_{\theta}(x|s)}}R(x,s)
 $$
 
 因为要最大化$$\hat{R_{\theta}}$$，我们可以用梯度上升的办法来更新$$\theta$$值，因此需要用到$$\hat{R_{\theta}}$$的梯度。我们对上式进行求导：
@@ -39,7 +42,7 @@ $$
 \nabla\hat{R_{\theta}} \approx \frac{1}{N} \sum_{i=1}^{N} R(x^i,s^i)\nabla \log P_{\theta}(x^i|s^i)
 $$
 
-更新参数 $$\theta^{new} \rightarrow \theta^{old}+\epison \nabla\hat{R_{\theta}}
+更新参数 $$\theta^{new} \rightarrow \theta^{old}+\epison \nabla\hat{R_{\theta}}$$
 
 
 
