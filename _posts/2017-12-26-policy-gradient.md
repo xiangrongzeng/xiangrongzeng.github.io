@@ -10,7 +10,6 @@ description: [介绍PolicyGradient算法]
 # 原理
 
 我们的目标是最大化期望的奖赏值$$\hat{R}$$。如果整个模型所有的参数用$$\theta$$来表示，那么我们训练的目标就是得到$$\theta^*=argmax_{\theta}\hat{R_{\theta}}$$。
-
 期望的奖赏值$$\hat{R}$$可以写成下面的公式
 
 $$
